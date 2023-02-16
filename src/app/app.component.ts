@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Output, EventEmitter } from '@angular/core';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +6,18 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'PromedioComponent';
+  public notasArray:number[] = []
+  public nota:number = 0
+  public promedios:number = 0
+  public mostrar:boolean = false
+
+  notasTotal(notas:number){
+    this.nota = notas
+    this.notasArray.push(this.nota)
+  }
+
+  promedioTotal(promedio:number){
+    this.promedios = promedio
+  }
+  
 }

@@ -1,0 +1,13 @@
+.buttons{
+    display: flex;
+    justify-content: space-around;
+}
+button{
+    background-color: coral;
+}
+button:hover{
+    background-color: blueviolet;
+}
+button::selection{
+    background-color: burlywood;
+}

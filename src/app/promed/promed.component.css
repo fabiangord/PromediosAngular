@@ -1,0 +1,6 @@
+.card-panel{
+    background-color: lavenderblush;
+}
+.card-panel:hover{
+    background-color: lemonchiffon;
+}

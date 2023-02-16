@@ -1,0 +1,13 @@
+<div class="container">
+    <div class="row">
+        <div class="col xl6 s6 offset-xl3 offset-s3">
+            <form>
+                <input type="number" placeholder="Ingrese notas" name="nota" [(ngModel)]="notas">
+                <div class="buttons col s12">
+                    <button class="waves-effect waves-light btn" (click)="resultadoNotas()">Agregar nota</button>
+                    <button class="waves-effect waves-light btn" (click)="promedio()">Hallar promedio</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
