@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # App promedios
 
 Aplicacion en la que puedes ingresar notas y te dará el promedio de estas notas.
