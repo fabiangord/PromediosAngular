@@ -10,7 +10,7 @@ Diseñada con Angular.
 
 ## Servidor de desarrollo
 
-Ejecuta 'ng serve -o' y se abrira la ventana, recuerda tener instalado Angular.
+Ejecuta 'ng serve -o' y se abrira la ventana, recuerda tener instalado Angular
 
 
 
